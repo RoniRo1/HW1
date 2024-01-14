@@ -32,7 +32,7 @@ class Counter {
 }
 function Start() {
     c1 = new Counter();
-    x = document.getElementById("ent").value;
+   let x = document.getElementById("ent").value;
     c1.Initialize(x);
         Show();
    
@@ -51,6 +51,6 @@ function Plus() {
 }
 function Go1() {
 
-    str = c1.Go();
+    c1.Go();
    
 }
